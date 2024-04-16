@@ -1,0 +1,20 @@
+@media(max-width: 450px){
+    main {
+        padding: 1px;
+    }
+    main h1 {
+        text-align: center;
+    }
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav > a{
+        width: 35%;
+        margin: auto;
+    }
+    div.video {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+}
